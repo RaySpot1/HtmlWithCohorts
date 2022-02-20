@@ -1,0 +1,160 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 93vw;
+    height: 80vh;
+    padding: 3%;
+}
+
+.workBlogContact{
+    margin-top: -1em;
+    display: flex;
+    float: right;
+    margin-right: 8em;
+    gap: 30px ;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.userName{
+    padding: 10%;
+    
+}
+
+.user-image img{
+    margin-top: -17em;
+    float: right;
+    margin-right: 3em;
+}
+
+.userName button{
+    margin-top: 1.5em;
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.Rectangle-container{
+    width: 87vw;
+    height: 396px;
+    background-color: #EDF7FA;
+    padding: 3%;
+}
+
+.Rectangle-container h4 {
+    margin-left: 4.5em;
+    margin-top: 5px;
+    padding: 3%;
+}
+
+.right{
+    margin-top: -8em !important;
+    margin-right: 4%;
+    float: right;
+    cursor: pointer;
+    color: #00A8CC;
+}
+
+.boxes{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 -15px;
+}
+
+.box{
+    margin-top: -2em !important;
+    margin-left: 8em !important;
+    width: 500px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.box h2{
+    margin-left: 1em;
+    font-size: 30px;
+}
+.box p {
+    /* margin-top: -200em; */
+    margin-left: 1.5em;
+    display:inline;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+.box h5{
+    margin-top: 2em;
+    font-weight:lighter;
+    margin-left: 1.8em;
+    font-size: 18px;
+}
+
+.featured-works h5{
+    margin-top: 4em;
+    margin-left: 8em ;
+    font-size: 20px;
+}
+
+.dashboards{
+    display: flex;
+}
+
+.dashboards-img img{
+    margin-top: 3em;
+    margin-left: 10em;
+    width: 400px;
+    height: 250px;
+    border-radius: 6px;
+}
+
+.dashboards h1{
+    margin-top: 1.7em;
+    margin-left: 1em;
+}
+
+.oval {
+    margin-top: 3em;
+    margin-left: 2em;
+    width: 65px;
+    height: 35px;
+    background: #142850;
+    border-radius:16px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.dashboards h5{
+    margin-top: -1.5em;
+    margin-left: 7em;
+    color: #8695A4;
+}
+
+.dashboards h6{
+    margin-top: 3em;
+    margin-left:1.5em;
+    font-size: 18px;
+}
+
+.media-handles {
+    margin-top: 10em;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.footer center{
+    margin-top: 2em;
+}
