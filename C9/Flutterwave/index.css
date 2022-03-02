@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+/* *{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: white; */
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.877);
+    /* background: black; */
+    margin-top: 2em;
+    margin-left: 10em;
+    width: 77vw;
+    height: auto;
+    padding: 10px;
+}
+
+.logo{
+    margin-top: -5em;
+    margin-left: -2em;
+    padding: 5em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.navBar{
+    align-items: center;
+    justify-content: center;
+    margin-top: -7.5em;
+    display: flex;
+    gap: 2em;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 5em;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(0, 0, 97);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(17, 206, 253);
+    transition-duration: 0.25s;
+    
+}
+
+.signIn-button{
+    float: right;
+    padding: 1rem 3.5rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: -4em;
+    margin-right: -0.6em;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signIn-button:hover {
+    background-color: black;
+    transition-duration: 0.25s;
+    color: white;
+}
+
+.endless{
+    display: flex;
+}
+.endless h1{
+    /* display: flex; */
+    font-size: 7em;
+    margin-left: 0.3em;
+    color: #fb9129;
+    line-height: 1em;
+}
+
+.endless h2{
+    margin-top:2.6em;
+    color: black;
+    font-size: 5em;
+    margin-left: 0.2em;
+}
+.business{
+    margin-top: -3em;
+    font-size: 3.5em;
+    margin-left: 0.5em;
+}
+
+.business p{
+    margin-top: -3em;
+    font-size: 24px;
+}
+
+.double-btn{
+    display: flex;
+    gap: 0.5em;
+}
+
+.freeAccount-btn{
+    background-color: black;
+    color: white;
+    padding: 1rem 1.8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    height: 4em;
+}
+
+.contact-btn{
+    background-color: #eee;
+    color: black;
+    padding: 1rem 1.8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    height: 4em;
+}
+
+.microsoft{
+    display: flex;
+}
+.microsoftImg{
+    margin-left: -11em;
+    margin-top: 5em;
+    width: 70%;
+    height: 48em;
+}
