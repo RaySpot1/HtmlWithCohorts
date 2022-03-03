@@ -124,8 +124,33 @@ a:hover{
     display: flex;
 }
 .microsoftImg{
-    margin-left: -11em;
+    margin-left: -13em;
     margin-top: 5em;
     width: 70%;
     height: 48em;
+}
+.yanga-container .yangaImg{
+    margin-top: -5em;
+    margin-left: 4.5em;
+    width: 41em;
+    height: 42em;
+}
+.yanga-container p {
+    margin-top: 3em; 
+    margin-left: 3em;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(75, 74, 74);
+}
+
+.trustees p{
+    font-size: 25px;
+    margin-top: 7em;
+}
+
+.trustees-logo{
+    margin-top: 4em;
+    display: flex;
+    gap: 4em;
+    font-size: 1em;
 }
