@@ -1,3 +1,2 @@
-let age = prompt("How old are you", 100)
-
-console.log(`You are ${age} Years old!`)
+let age = Number("Welcome")
+console.log(age)
