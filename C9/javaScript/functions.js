@@ -148,15 +148,83 @@
 
 // console.log(getPersonName)
 
-let person = {
-    userName: "Jerry",
-    gender: "male",
-    school: "unilag"
+// let person = {
+//     userName: "Jerry",
+//     gender: "male",
+//     school: "unilag"
+// }
+
+// for(key in person) {
+//     console.log(person[key])
+// }
+
+
+// console.log(Object.keys(person))
+
+
+
+// function callMe(phoneNumber, countryDial){
+//     if(phoneNumber !== ""){
+//         countryDial(phoneNumber)
+//     }else{
+//         console.log("Enter a valid number")
+//     }
+// }
+
+// const dial = (phoneNumber) => console.log(`calling ${phoneNumber}`)
+
+// callMe("08161820220", dial)
+
+//print even numbers
+
+// let anArray = [1, 2, 3, 4, 5, 6, 7, 8]
+// console.log("Even numbers: ")
+
+// function getEvenNumbers(anArray){
+//     for(let even = 0; even < anArray.length; even++){
+//         if(anArray[even] %2 === 0){
+//             // console.log(anArray[even])
+//             process.stdout.write(anArray[even] + " ") // print in one line
+//         }
+//     }
+// }
+
+// getEvenNumbers(anArray)
+ 
+// (function oneLine(anArray) {for (let i = 0; i < anArray.length; i++) {anArray[i] % 2 === 0 && process.stdout.write(anArray[i] + " ") } })([1, 2, 3, 4, 5, 6, 7, 8])
+
+
+
+
+// (anArray = [1, 2, 3, 4, 5, 6, 7, 8], even = [], anArray.forEach(number => {if (number %2 === 0) even.push(number)}), process.stdout.write(even + " "))
+
+// (anArray = [1, 2, 3, 4, 5, 6, 7, 8], anArray.forEach(number => {if (number %2 === 0) process.stdout.write(number + " ")}))
+
+
+
+//factorial
+
+function factorial(x) {
+    if(x === 0){
+        return 1
+    } else{
+        return x * factorial(x - 1)
+    }
 }
 
-for(key in person) {
-    console.log(person[key])
+// First iteration
+//3 * factiruak(3-1)
+
+// second iteration
+//3 * 2 * factorial(2-1)
+
+// third iteration
+// 3 * 2 * 1 factirual(1 - 1)
+
+const num = 3
+
+if(num > 0){
+    let result = factorial(num);
+    console.log(`The factorial of ${num} is ${result}`)
 }
 
-
-console.log(Object.keys(person))
